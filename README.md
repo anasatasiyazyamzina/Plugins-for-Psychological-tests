@@ -1,10 +1,5 @@
 # Plugins-for-Psychological-tests
 
-The [ddlusher](https://github.com/anasatasiyazyamzina/Plugins-for-Psychological-tests/tree/main/ddlusher) is a folder for the New Question Type Plugin which provides new usability for conduction Lusher 8-color test. It should be performed with [luserr](https://github.com/anasatasiyazyamzina/Plugins-for-Psychological-tests/tree/main/lusherr) New Question Behaviour.
-
-The [amtchauer](https://github.com/anasatasiyazyamzina/Plugins-for-Psychological-tests/tree/main/amtchauer) folder is a new Question Behaviour Plugin which can be performed with different Question Types such as multichoice or shortanswer. It also can be usefull for tests where student must answer all questions.
-
-
 The project is completed during the preparation of Anastasiya S. Zyamzina bachalor's thesis at SPbPU Institute of computer science and technology (SPbPU ICST).
 
 Contributors
@@ -22,3 +17,8 @@ Special thanks for the support to Alexander V. Schukin the assosiate professor o
 Warranty
 
 The contributors give no warranty for the using of the plugins. The plugins are tested only in Moodle 3.5.1.
+
+License
+
+GNU General Public License v3.0
+Anyone can freely use the software but must let us know about this (for statistical purposes only). 
