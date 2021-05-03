@@ -1,0 +1,10 @@
+{
+    "moodle-qtype_ddlusher-dd": {
+        "requires": [
+            "node",
+            "dd",
+            "dd-drop",
+            "dd-constrain"
+        ]
+    }
+}

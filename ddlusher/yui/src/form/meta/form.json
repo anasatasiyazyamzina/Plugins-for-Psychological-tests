@@ -1,0 +1,8 @@
+{
+  "moodle-qtype_ddlusher-form": {
+    "requires": [
+        "moodle-qtype_ddlusher-dd",
+        "form_filepicker"
+    ]
+  }
+}
