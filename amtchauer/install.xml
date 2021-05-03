@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="question/behaviour/amtchauer/db" VERSION="20200607" COMMENT="XMLDB file for Moodle question/behaviour/amtchauer"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="test_amtchauer" COMMENT="New database to save Amthauer test answers">
+      <FIELDS>
+        <FIELD NAME="testid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="QUBA ID for the test"/>
+        <FIELD NAME="totalmark" TYPE="int" LENGTH="3" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Total mark of the sub-test"/>
+        <FIELD NAME="nameofthetest" TYPE="text" NOTNULL="true" SEQUENCE="false" COMMENT="Name of the test"/>
+        <FIELD NAME="numtest" TYPE="int" LENGTH="4" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>
